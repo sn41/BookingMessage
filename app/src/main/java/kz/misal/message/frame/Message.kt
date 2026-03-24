@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -993,7 +992,7 @@ fun PreviewMessage6() {
             iconSize = 20.dp, // размер!
             leadingIcon = {
                 Image(
-                    painterResource(R.drawable.group_28),
+                    painterResource(R.drawable.ic_info),
                     "",
                 )
             },
